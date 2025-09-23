@@ -15,10 +15,10 @@ class MilkManage:
         self.otp_code = None
         self.setup_ui()
 
-        self.sender_email = 'dhirajsalunke7350@gmail.com'
+        self.sender_email = 'email here'
         self.smtp_server = 'smtp.gmail.com'
         self.smtp_port = 587
-        self.sender_password = 'cyba jydk cujw swpw'    
+        self.sender_password ='Insert your own password '    
         try:
             self.server = smtplib.SMTP(self.smtp_server, self.smtp_port)
             self.server.starttls()
