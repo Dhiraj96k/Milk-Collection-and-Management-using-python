@@ -1,0 +1,1 @@
+This project is designed to automate milk collection and management for milk farmers, reducing paperwork and making record-keeping efficient. It aims to provide a scalable solution for dairy centers to manage farmers, milk collection, payments, and reporting in a streamlined digital format. 
