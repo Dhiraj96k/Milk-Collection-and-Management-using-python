@@ -24,7 +24,6 @@ class UserInformationApp:
     def validate_mobno(self, mobno):
         return bool(re.match(r"^\d{10}$", mobno))
 
-    # Validate Email Address
     def validate_email(self, email):
         email_regex = r'^[a-zA-Z0-9_.+-]+@[a-zAZ0-9-]+\.[a-zA-Z0-9-.]+$'
         return bool(re.match(email_regex, email))
